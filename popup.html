@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    select {
+      padding: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Reading Mode</h2>
+  
+  <button id="enableMode">Enable Distraction-Free Mode</button>
+  <br><br>
+  
+  <label for="theme">Select Theme:</label>
+  <select id="theme">
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+    <option value="sepia">Sepia</option>
+  </select>
+  <br><br>
+  
+  <label for="font">Select Font:</label>
+  <select id="font">
+    <option value="Arial">Arial</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Courier New">Courier New</option>
+  </select>
+  <br><br>
+
+  <button id="downloadContent">Download Cleaned Content as PDF</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
